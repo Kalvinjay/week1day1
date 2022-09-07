@@ -5,23 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalvin's First Web Page</title>
+    <!-- Embed Style Method -->
+    <style>
+        header {
+            background: url(images/central_park.jpg) 0 -200px no-repeat; /* place images as background */
+            background-size: 1500px;
+            /* background-position: 0-200px; */
+            /* background-repeat: no-repeat; */
+            height:400px; /* give header some height to display the background image */
+        }
+    </style>
 </head>
 <body>
     <div id="container">
         <header>My Web site Brand</header>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">About</a></li>
                 <li>Gallery</li>
-                <li>Contact</li>
+                <li><a href="page3.html">Contact</a></li>
             </ul>
         </nav>
 
         <main></main>
         <h1>My first heading</h1>
         <p>My first paragraph.</p>
-    </main>
+        </main>
     <footer>&copy; Copyright</footer>
     </div>
 </body>
