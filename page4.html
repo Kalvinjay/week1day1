@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalvin's First Web Page</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
     <div id="container">
@@ -19,12 +18,10 @@
                 <li><a href="page3.html">Contact</a></li>
             </ul>
         </nav>
-
         <main>
             <h1>My Fourh Heading</h1>
             <p>My Fourth Paragraph</p>
-
-                <ul>
+                <ul id="album">
                     <!--<li id="photo"><img src="images/winterland1.jpg"></li>
                     <li id="photo"><img src="images/winterland2.jpg"></li>
                     <li id="photo"><img src="images/winterland3.jpg"></li>
@@ -37,9 +34,9 @@
     </div>
 
     <script>
-        var photos = [ ]; //Declare an empty array to store image element
-        var fileNames = [ ]; //Declare an empty element to store image file names
-        var imageList = [ ]; //Decalre an empty array to store html list that contain an image
+        var photos = []; //Declare an empty array to store image element
+        var fileNames = []; //Declare an empty element to store image file names
+        var imageList = []; //Decalre an empty array to store html list that contain an image
         var image; //Declare an empty variable to store the assembled image list codes
         var openList = "<li id='photo'>"; //Declare a variable to contai open list tag
         var closeList = "</li>"; //Declare a variable to contain close list tag
